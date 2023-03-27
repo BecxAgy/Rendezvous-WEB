@@ -6,7 +6,7 @@ Esse projeto é uma aplicação web simples que implementa o conceito de sincron
 - HTML5
 - CSS3
 - JavaScript
-- 
+
 ## Como executar a aplicação
 
 1. Baixe os arquivos do projeto em uma pasta local.
