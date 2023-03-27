@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rendezvous</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="row">
+        <div id="box1"><p><p id="executando" style="display: none;">P1 Executando...</p>
+        </div>
+        <div id="box2">P2</div>
+    </div>
+
+	<div class="container">
+		<h1>Rendezvous</h1>
+		<p id="descricao">Dois processos que iniciam em tempos distintos, mas se esperam para terminar a execução juntos.</p>
+	</div>
+
+	<button id="btn1" class="btn" onclick="iniciarProcesso1()">Iniciar Processo 1</button>
+	<button id="btn2" class="btn" onclick="iniciarProcesso2()" disabled>Iniciar Processo 2</button>
+    
+    <script src="logic-rendezvous.js"></script>
+  </body>
+</html>
