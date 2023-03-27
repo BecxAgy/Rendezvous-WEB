@@ -51,13 +51,11 @@ h1 {
     
 }
 
-.container.green {
-    background-color: #8bc34a;
+.green {
+    background-color: #8bc34a !important;
 }
 
-#box1.green, #box2.green {
-    background-color: #8bc34a;
-}
+
 
 .btn {
     background-color: #3f51b5;

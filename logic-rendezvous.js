@@ -25,7 +25,8 @@
 
 		function checkSemaphores() {
 			if (semaphore1 && semaphore2) {
-			
+                document.querySelector("#box1").classList.add("green");
+                document.querySelector("#box2").classList.add("green");
                 document.querySelector(".container").classList.add("green");
 			}
 		}
